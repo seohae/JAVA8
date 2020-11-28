@@ -1,15 +1,18 @@
 package ModernInJava8.common;
 
 public class SampleDto {
-    private Long idx;
+    private int idx;
     private String name;
     private String gender;
 
-    public Long getIdx() {
+    public SampleDto(int idx, String name, String gender) {
+    }
+
+    public int getIdx() {
         return idx;
     }
 
-    public void setIdx(Long idx) {
+    public void setIdx(int idx) {
         this.idx = idx;
     }
 
