@@ -1,8 +1,5 @@
-package ModernInJava8.ch4_stream;
+package ModernInJava8.ch4_5_6_stream;
 
-import ModernInJava8.common.SampleDto;
-
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 

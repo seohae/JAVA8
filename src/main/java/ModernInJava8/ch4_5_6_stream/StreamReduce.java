@@ -1,4 +1,4 @@
-package ModernInJava8.ch4_stream;
+package ModernInJava8.ch4_5_6_stream;
 
 import java.util.Arrays;
 import java.util.List;
