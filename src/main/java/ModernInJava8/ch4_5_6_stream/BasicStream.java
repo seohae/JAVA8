@@ -33,7 +33,7 @@ public class BasicStream {
         Collections.sort(list, new Comparator<SampleDto>() {
             @Override
             public int compare(SampleDto o1, SampleDto o2) {
-                return Integer.compare(o1.getIdx().intValue(), o2.getIdx().intValue());
+                return Integer.compare(o1.getIdx(), o2.getIdx());
             }
         });
 
